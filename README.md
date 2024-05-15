@@ -1,2 +1,2 @@
-# Learning-cpp
-Learning C++ by Codes
+# Learning C++
+Welcome to my C++ repository.
