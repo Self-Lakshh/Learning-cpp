@@ -1,9 +1,10 @@
 // Day-03/input.cpp
 #include <iostream>
+#include <string>
 int main() {
-    int score;
-    std::cout << "Enter score: ";
-    std::cin >> score;
-    std::cout << "Score received: " << score << "\n";
+    std::string name;
+    std::cout << "Enter name: ";
+    std::cin >> name;
+    std::cout << "Hello, " << name << "!\n";
     return 0;
 }
