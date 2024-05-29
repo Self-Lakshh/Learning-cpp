@@ -1,9 +1,9 @@
 // Day-09/functions.cpp
 #include <iostream>
-void greet() {
-    std::cout << "Hello!\n";
+void greet(std::string name) {
+    std::cout << "Hello, " << name << "!\n";
 }
 int main() {
-    greet();
+    greet("Lakshya");
     return 0;
 }
