@@ -1,11 +1,16 @@
 // projects/banking_system.cpp
 #include <iostream>
+#include <fstream>
 class Account {
 public:
     double bal = 100;
 };
-class Savings : public Account {};
+void save(Account &a) {
+    std::ofstream file("bank.dat", std::ios::binary);
+    file.write((char*)&a, sizeof(a));
+}
 int main() {
-    Savings s;
+    Account a;
+    save(a);
     return 0;
 }
