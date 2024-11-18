@@ -1,8 +1,9 @@
 // projects/library_management.cpp
 #include <iostream>
 #include <vector>
-class Book { public: std::string title; };
+#include <memory>
+class Book { public: std::string t; };
 int main() {
-    std::vector<Book> shelf;
+    std::vector<std::unique_ptr<Book>> shelf;
     return 0;
 }
