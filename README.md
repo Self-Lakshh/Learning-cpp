@@ -1,2 +1,2 @@
-# Learning C++
-Welcome to my C++ repository.
+# C++ Mastery (Graduated!)
+Completed 180 days.
