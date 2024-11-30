@@ -1,2 +1,45 @@
-# Roadmap
-- [x] All items complete.
+# C++ Learning Roadmap 🗺️
+
+My plan to go from C++ absolute beginner to writing decent console projects. I'm grouping this by topic and checking them off as I build real programs.
+
+- [x] **Phase 1: The Basics (May - June)**
+  - Syntax structure, hello world, main entry.
+  - Variables, types (`int`, `double`, `char`, `bool`), and sizing.
+  - Getting console inputs with `std::cin` and using `getline` for strings.
+  - Control flow: `if-else`, `switch` menus, and `while`/`for` loops.
+- [x] **Phase 2: Functions & Modularization (June)**
+  - Function declarations (prototypes) vs definitions.
+  - Pass by value vs Pass by reference (`&`).
+  - Recursive functions (testing with factorials).
+- [x] **Phase 3: Arrays & Strings (June - July)**
+  - 1D/2D arrays, matrix scanning.
+  - C-style strings vs `std::string` objects.
+  - Simple Bubble Sort implementation.
+- [x] **Phase 4: Pointers & Heap Memory (July)**
+  - Memory addresses and the `*` dereference operator.
+  - Pointer arithmetic.
+  - Dynamic allocation: `new` and `delete` (and handling memory leaks).
+- [x] **Phase 5: Object-Oriented Programming (July - August)**
+  - Classes, private encapsulation, getters/setters.
+  - Constructor lists and destructors.
+  - Inheritance (`public` vehicle example) and overriding base methods.
+  - Virtual functions and abstract shapes interface (`Shape`).
+- [x] **Phase 6: Files & Streams (August)**
+  - Text file operations (`ifstream` / `ofstream` streams).
+  - Writing struct records to binary `.dat` files.
+  - Seeking offsets using `seekg()` and `tellg()`.
+- [x] **Phase 7: STL Containers (August - September)**
+  - Vector lists (`std::vector`) and iterators traversal.
+  - Associative maps (`std::map`) and unique sets (`std::set`).
+  - Standard STL sorting algorithms.
+- [x] **Phase 8: Custom Data Structures (September - October)**
+  - Singly Linked List from scratch (with custom clean destructor).
+  - Stacks and Binary Search Trees.
+- [x] **Phase 9: Algorithms (October)**
+  - Selection sort, Merge sort, and Quick sort algorithms.
+  - Two Sum, bracket stacks, and string palindromes.
+- [x] **Phase 10: Modern C++ Features (November)**
+  - Template functions and class boxes.
+  - Division exception try-catch blocks.
+  - Memory management via `std::unique_ptr` and `std::shared_ptr`.
+  - Lambda inline sort predicates.
