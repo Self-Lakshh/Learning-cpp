@@ -4,7 +4,13 @@ Hey there! This repository is my personal space where I document my progress lea
 
 I am studying using learncpp.com, standard documentation, and by building small console projects.
 
-## Project Structure
-- `Day-XX/` - Daily experiments, syntax practice, and exercises.
-- `projects/` - Small console applications to apply what I learn.
-- `challenges/` - Code challenges and algorithms I solved.
+## What's Inside?
+- **Day-XX/**: Daily code practice, loops, variables, pointer syntax, and templates.
+- **projects/**: Real-world console apps:
+  - Simple & Modular Calculators
+  - Student Marks System
+  - Banking Management System (file-based)
+  - Custom Data Structures (Linked List, Stack, Binary Search Tree)
+  - CLI Backend Server Simulation (user authentication, logs)
+- **challenges/**: Solutions for common algorithm problems like Two Sum, Palindromes, and bracket checks.
+- **docs/**: My learning logs, concepts explanation, and dev journals.
