@@ -14,3 +14,10 @@ I am studying using learncpp.com, standard documentation, and by building small 
   - CLI Backend Server Simulation (user authentication, logs)
 - **challenges/**: Solutions for common algorithm problems like Two Sum, Palindromes, and bracket checks.
 - **docs/**: My learning logs, concepts explanation, and dev journals.
+
+## How to Run
+Most programs are standalone console files. You can compile them using any standard C++17 compiler (like g++):
+```bash
+g++ -std=c++17 filename.cpp -o program
+./program
+```
